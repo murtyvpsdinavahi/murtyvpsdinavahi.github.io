@@ -1,0 +1,119 @@
+body {
+  background-image: url(./Images/Sky01.jpg);
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+/* ------Navigation------ */
+
+.NavbarDiv {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  height: calc(100vh - 2rem);
+  width: 16rem;
+  overflow: auto;
+}
+
+.NavbarImage {
+  position: fixed;
+  width: inherit;
+  height: inherit;
+
+  /* Image */
+  background-image: url(./Images/20200405_235244.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 50%;
+}
+
+.NavbarButton {
+  /* button properties */
+  height: 20px;
+  width: 10rem;
+  background: rgba(255, 255, 255, 1);
+  margin: 1rem;
+  padding: 1.2rem 1.5rem;
+  cursor: pointer;
+
+  /* outline properties */
+  outline-color: black;
+  outline-width: 0.1rem;
+  outline-style: solid;
+  outline-offset: -0.5rem;
+}
+
+.NavbarButton:hover {
+  box-shadow: 2px 2px black;
+}
+
+.NavbarText {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  /* background-color: white; */
+
+  font-weight: 900;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  font-family: Courier, monospace;
+}
+
+/* -----Main Body----- */
+
+.BodyContent {
+  position: absolute;
+  left: 17rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+.BodyDiv {
+  margin: 3rem;
+  position: relative;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px black;
+}
+
+.NestedParagraph {
+  background: rgba(255, 255, 255, 0);
+  width: 60%;
+  overflow: auto;
+}
+
+.NestedDiv {
+  position: absolute;
+  left: 60%;
+  width: 30%;
+  height: 40%;
+  float: left;
+}
+
+.NestedImage {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: none;
+  text-align: center;
+}
+
+.Heading {
+  font-weight: 200;
+  color: rgba(0, 0, 0, 1);
+  /* text-decoration: underline; */
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.Paragraph {
+  letter-spacing: 0.075rem;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Icons {
+  margin: 1rem;
+}
